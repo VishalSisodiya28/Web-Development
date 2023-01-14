@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Table Exercise</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid;
+            text-align: center;
+        }
+
+        hr {
+            margin: 0px;
+            background-color: black;
+        }
+
+        p {
+
+            margin: 6px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption><strong>Time Table</strong></caption>
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="4">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2" bgcolor="yellow">8:00 a.m.</td>
+            <td rowspan="2" bgcolor="skyblue">5:00 p.m.</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td bgcolor="yellow">8:00 a.m.</td>
+            <td bgcolor="yellow">11:00 a.m.</td>
+            <td rowspan="3">
+                <p>XPath</p>
+                <hr>
+                <hr>
+                <p>XSL Transformations</p>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">11:00 a.m.</td>
+            <td bgcolor="lightgreen">2:00 p.m.</td>
+        </tr>
+        <tr>
+            <td bgcolor="lightgreen">2:00 p.m.</td>
+            <td bgcolor="skyblue">5:00 p.m.</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td bgcolor="yellow">8:00 a.m.</td>
+            <td bgcolor="lightgreen">12:00 p.m.</td>
+            <td>XSL Formatting Objects</td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+
+/* 2D TRANSFORM START */
+              .box{
+                  border: 1px solid black;
+                  min-height: 200px;
+                   width: 300px;
+                   background-color: aqua;
+              }
+
+              .box-1{
+                /* The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis). */
+
+                transform: translate(500px,50px);
+              } 
+
+              .box-2{
+                /* The rotate() method rotates an element clockwise or counter-clockwise according to a given degree. */
+                   transform: rotate(-45deg);
+
+              }
+
+              .box-3{
+                /* The scaleX() method increases or decreases the width of an element. */
+                /*  The scaleY() method increases or decreases the height of an element.*/
+                  margin-top: 150px;
+                   transform: scale(1,1.5); /* SCALE MAKE ZOOMIN. first horizentL, SECOUND VERTICAL  */
+
+              }
+
+              
+              .box-4{
+                /* he skew() method skews an element along the X and Y-axis by the given angles. */
+                margin-top: 150px;
+                transform: skew(20deg,10deg);
+
+            }
+
+
+            
+            .box-5{
+
+                /* The parameters are as follow: matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+                margin-top: 150px;
+                transform: matrix(1, -0.3, 0, 1, 0, 0);
+            }
+/* 2D TRANSFORM END */
+
+
+
+/* 3D TRANSFORM START */
+
+/* .parent{
+    perspective: 10px;
+    background-color: blue;
+}
+
+.box{
+    border: 1px solid black;
+    min-height: 200px;
+     width: 300px;
+     transform: translate(500px,50px,10PX);
+     transform-style: preserve-3d;
+} */
+
+
+
+
+/* 3D TRANSFORM END */

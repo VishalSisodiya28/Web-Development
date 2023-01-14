@@ -1,0 +1,39 @@
+div{
+    max-height: 200px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+body{
+    padding:50px;   
+}
+.maxheight{
+    max-height: 200px;
+}
+
+.minheight {
+    min-height: 100px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+#divoverflow {
+    height: 50px;
+    border : 1px solid black;
+    overflow: visible;
+}
+
+.fixed{
+    background-color: aqua;
+    position: fixed;
+}
+
+.div3{
+    border : 1px solid black;
+    color: white;
+    background-color: brown;
+    position: sticky;
+    top:170px;
+    left:60px;
+    
+
+}

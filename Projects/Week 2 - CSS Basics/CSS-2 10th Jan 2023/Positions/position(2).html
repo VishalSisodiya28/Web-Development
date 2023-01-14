@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PositionTutorial</title>
+    <style>
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 3444px;
+        }
+
+        .box {
+            height: 50px;
+            /* width: 200   px; */
+            border: 1px solid black;
+            text-align: center;
+            position: sticky;
+            top: 0px;
+            /* margin: 0px;     */
+            /* margin: 100px; */
+            width: 99vw;
+            background-color: khaki;
+            margin: 2px;
+
+        }
+
+        #box2 {
+            position: fixed;
+            top: 52px;
+        }
+
+        #box3 {
+            position: relative;
+            top: 200px;
+        }
+
+        .container {
+            height: 750px;
+            /*Doing this beacause Sticky is relative to its parent */
+            width: 99vw;
+            margin: 0;
+            background-color: aqua;
+
+            position: relative;
+        }
+
+        #box4 {
+            position: absolute;
+            top: 300px;
+            width: 200px;
+            left: 42vw;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box">
+            <p> Sticky</p>
+        </div>
+        <div class="box" id="box2">
+            <p>Fixed</p>
+        </div>
+        <div class="box" id="box3">
+            <p>Relative</p>
+        </div>
+        <div class="box" id="box4">
+            <p>Absolute</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Exercise</title>
+    <style>
+        table,
+        th,
+        td,
+        tr {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            padding-right: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .gry {
+            background-color: rgb(239, 227, 227);
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption> A Complex Table</caption>
+        <thead>
+            <tr>
+                <td class="gry" colspan="3"><b>Invoice#123456</b></td>
+                <td class="gry"><b>14 January 2025</b></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <b>Pay to:</b><br>Acme Billing<br>Co.<br>123 Main St.<br>Cityville, NA 12345
+                </td>
+                <td colspan="2">
+                    <b>Customer:</b><br>John Smith<br> 321 Willow Way<br>Southeast Northwestershire, MA 54321
+                </td>
+
+            <tr>
+
+        </thead>
+
+        <tbody>
+            <td class="gry"><b>Name/Descprition</b></th>
+            <td class="gry"><b>Qty.</b></td>
+            <td class="gry"><b>@</b></td>
+            <td class="gry"><b>Cost</b></td>
+            </tr>
+
+            <tr>
+                <td>Paperclips</td>
+                <td>1000</td>
+                <td>0.01</td>
+                <td>10.00 </td>
+            </tr>
+
+            <tr>
+                <td>Staples(box)</td>
+                <td>100</td>
+                <td>1.00</td>
+                <td>100.0</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+            <tr>
+                <td colspan="3" class="gry"><b>Subtotal</b></td>
+                <td>110.00</td>
+            </tr>
+
+            <tr>
+                <td class="gry" colspan="2">Tax</td>
+                <td>8%</td>
+                <td>8.80</td>
+            </tr>
+
+            <tr>
+                <td class="gry" colspan="3"><b>Grand Total</b></td>
+                <td>$118.80</td>
+            </tr>
+        </tfoot>
+
+
+
+    </table>
+
+</body>
+
+</html>
